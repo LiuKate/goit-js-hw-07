@@ -14,4 +14,3 @@ const decrement = decrementRef.addEventListener('click', () => {
     counterValue.textContent = counter;
 })
 
-console.log(decrement)

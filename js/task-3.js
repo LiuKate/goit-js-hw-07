@@ -24,4 +24,3 @@ const gallery = images.map(({url, alt}) => {
 }).join('')
 
 const galleryMarkup = galleryRef.insertAdjacentHTML('afterbegin', gallery)
-console.log(galleryMarkup)
